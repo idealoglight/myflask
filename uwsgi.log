@@ -1,0 +1,17 @@
+*** Starting uWSGI 2.0.15 (64bit) on [Fri Jan 19 21:39:32 2018] ***
+compiled with version: 4.8.2 on 19 January 2018 21:17:00
+os: Linux-3.13.0-65-generic #106-Ubuntu SMP Fri Oct 2 22:08:27 UTC 2015
+nodename: iZ2ze1151wdcu8hd6e9u2xZ
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/flask/flasky
+writing pidfile to uwsgi.pid
+detected binary path: /home/flask/flasky/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 7781
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+bind(): Permission denied [core/socket.c line 769]
